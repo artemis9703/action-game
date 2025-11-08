@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: BigRock4
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -1417429728, guid: 453d6c62dff7a334e8d85bc98af7ee10, type: 3}
+  - {fileID: 140345759, guid: 453d6c62dff7a334e8d85bc98af7ee10, type: 3}
+  - {fileID: -580851349, guid: 453d6c62dff7a334e8d85bc98af7ee10, type: 3}
+  - {fileID: -406413841, guid: 453d6c62dff7a334e8d85bc98af7ee10, type: 3}
+  - {fileID: 1532028807, guid: 453d6c62dff7a334e8d85bc98af7ee10, type: 3}
+  - {fileID: -50483879, guid: 453d6c62dff7a334e8d85bc98af7ee10, type: 3}
+  - {fileID: 1973195454, guid: 453d6c62dff7a334e8d85bc98af7ee10, type: 3}
+  - {fileID: 2516912, guid: 453d6c62dff7a334e8d85bc98af7ee10, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
