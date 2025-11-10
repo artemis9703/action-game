@@ -8,10 +8,20 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
 
+    public PlayerCombat playerCombat;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Slash"))
+        {
+            playerCombat.Attack();
+        }
     }
 
     // fixed update is called 50 times per frame

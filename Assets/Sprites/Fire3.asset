@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Fire3
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 555434681, guid: 1dd7dd366eb31ea4cbb6bc2982161dd5, type: 3}
+  - {fileID: -1431736495, guid: 1dd7dd366eb31ea4cbb6bc2982161dd5, type: 3}
+  - {fileID: -1305038944, guid: 1dd7dd366eb31ea4cbb6bc2982161dd5, type: 3}
+  - {fileID: -1349124356, guid: 1dd7dd366eb31ea4cbb6bc2982161dd5, type: 3}
+  - {fileID: -955979648, guid: 1dd7dd366eb31ea4cbb6bc2982161dd5, type: 3}
+  - {fileID: 535869314, guid: 1dd7dd366eb31ea4cbb6bc2982161dd5, type: 3}
+  - {fileID: 991247585, guid: 1dd7dd366eb31ea4cbb6bc2982161dd5, type: 3}
+  m_MinSpeed: 8
+  m_MaxSpeed: 8
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0
