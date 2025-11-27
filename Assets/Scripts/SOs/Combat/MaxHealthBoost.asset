@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MaxHealthBoost
   m_EditorClassIdentifier: 
   skillName: Max Health Boost
-  maxLevel: 5
+  maxLevel: 3
   skillIcon: {fileID: 5439035362923688692, guid: 32a46a3d05b6e7242a113a32fd30a8e4, type: 3}

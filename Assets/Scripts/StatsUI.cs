@@ -5,7 +5,6 @@ public class StatsUI : MonoBehaviour
 {
     public GameObject[] statsSlots;
     public CanvasGroup statsCanvas;
-
     private bool statsOpen = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,13 +21,17 @@ public class StatsUI : MonoBehaviour
             if (statsOpen)
             {
                 Time.timeScale = 1;
+                UpdateAllStats();
                 statsCanvas.alpha = 0;
+                statsCanvas.blocksRaycasts = false;
                 statsOpen = false;
             }
             else
             {
                 Time.timeScale = 0;
+                UpdateAllStats();
                 statsOpen = true;
+                statsCanvas.blocksRaycasts = true;
                 statsCanvas.alpha = 1;
             }
         }

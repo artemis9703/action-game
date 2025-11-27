@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59bc217d73d93be4080ea7f0b96db21f, type: 3}
+  m_Name: Rock
+  m_EditorClassIdentifier: 
+  itemName: Pet Rock
+  itemDescription: You can make it your best friend, or you can throw it at your
+    enemies?
+  icon: {fileID: -2276259661975475453, guid: 85515b4b62dff0545a80f92c1bbf7b86, type: 3}
+  isGold: 0
+  stackSize: 1
+  currentHealth: 0
+  maxHealth: 0
+  speed: 0
+  damage: 3
+  duration: 10

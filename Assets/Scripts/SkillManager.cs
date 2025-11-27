@@ -33,6 +33,14 @@ public class SkillManager : MonoBehaviour
                 StatsManager.Instance.UpdateMaxHealth(1);
                 break;
 
+            case "Max Damage":
+                StatsManager.Instance.UpdateDamage(1);
+                break;
+
+            case "Max Speed":
+                StatsManager.Instance.UpdateSpeed(1);
+                break;
+
             default:
                 Debug.LogWarning("Unknown skill: " + skillName);
                 break;

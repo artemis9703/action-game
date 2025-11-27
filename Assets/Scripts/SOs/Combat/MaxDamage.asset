@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: MaxDamage
   m_EditorClassIdentifier: 
   skillName: Max Damage
-  maxLevel: 3
+  maxLevel: 2
   skillIcon: {fileID: 7356403606224751796, guid: 0aa51256f41b1e748886ddbeabd36321, type: 3}
