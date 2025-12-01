@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cbd0cf8e6acc944386823c8582dcf19, type: 3}
+  m_Name: FireWoodGreeting
+  m_EditorClassIdentifier: 
+  lines:
+  - speaker: {fileID: 11400000, guid: f021a09952f5e0f4b886a6c469d1563f, type: 2}
+    text: Hello warrior! My name is Alaric.
+  - speaker: {fileID: 11400000, guid: f021a09952f5e0f4b886a6c469d1563f, type: 2}
+    text: My soldiers and I are in need of your assistance. Can you go get us more
+      firewood for our fires?
+  options:
+  - optionText: Accept
+    nextDialogue: {fileID: 11400000, guid: 787f26d11411b7a439360fe0d89af58d, type: 2}
+  - optionText: Decline
+    nextDialogue: {fileID: 11400000, guid: a41d59fbb77c95b4ab451d6c695418b1, type: 2}
