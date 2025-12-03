@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5190246323702d04d87c5c120aa7f6d8, type: 3}
+  m_Name: QuestMeat
+  m_EditorClassIdentifier: 
+  questName: Test
+  questDescription: Go find one piece of meat.
+  questLevel: 5
+  objectives:
+  - description: testy testy testy
+    target: {fileID: 11400000, guid: 20c816e606ac0834a9732de8996d9775, type: 2}
+    requiredAmount: 1
+  - description: testy testy testy
+    target: {fileID: 11400000, guid: 41655ec40aed5e14eb7b2775ef67397e, type: 2}
+    requiredAmount: 1

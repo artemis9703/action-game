@@ -42,7 +42,7 @@ public class NPC_Talk : MonoBehaviour
             {
                 conversation.RemoveAt(i);
                 currentConversation = convo;
-                return;
+                break;
             }
         }
     }

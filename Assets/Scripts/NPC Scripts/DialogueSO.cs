@@ -7,6 +7,8 @@ public class DialogueSO : ScriptableObject
     public DialogueOption[] options;
     [Header("Conditional Requirements (Optional)")]
     public ActorSO[] requireNPCs;
+    public LocationSO[] requiredLocations;
+    public ItemSO[] requiredItems;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -28,6 +30,22 @@ public class DialogueSO : ScriptableObject
             {
                 bool hasSpoken = DialogueHistoryTracker.Instance.HasSpokenWith(reqNPC);
                 if (!hasSpoken) 
+                    return false;
+            }
+        }
+        if (requiredLocations.Length > 0)
+        {
+            foreach (var location in requiredLocations)
+            {
+                if (!LocationHistoryTracker.Instance.HasVisited(location))
+                    return false;
+            }
+        }
+        if (requiredItems.Length > 0)
+        {
+            foreach (var item in requiredItems)
+            {
+                if (!InventoryManager.Instance.HasItem(item))
                     return false;
             }
         }
