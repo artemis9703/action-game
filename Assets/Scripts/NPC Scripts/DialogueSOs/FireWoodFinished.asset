@@ -22,3 +22,4 @@ MonoBehaviour:
   requiredLocations: []
   requiredItems:
   - {fileID: 11400000, guid: 944c71f2de4f7b645b8d4061a35512ac, type: 2}
+  - {fileID: 11400000, guid: 944c71f2de4f7b645b8d4061a35512ac, type: 2}

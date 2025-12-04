@@ -16,10 +16,15 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: f021a09952f5e0f4b886a6c469d1563f, type: 2}
     text: Hello warrior! My name is Alaric.
   - speaker: {fileID: 11400000, guid: f021a09952f5e0f4b886a6c469d1563f, type: 2}
-    text: My soldiers and I are in need of your assistance. Can you go get us more
-      firewood for our fires?
+    text: My soldiers and I are in need of your assistance. Can you go get us 2 more
+      pieces of firewood for our fires?
+  - speaker: {fileID: 11400000, guid: 6ae5ed39c9ea84e44a5b7ff026119102, type: 2}
+    text: Okay!
   options:
   - optionText: Accept
     nextDialogue: {fileID: 11400000, guid: 787f26d11411b7a439360fe0d89af58d, type: 2}
   - optionText: Decline
     nextDialogue: {fileID: 11400000, guid: a41d59fbb77c95b4ab451d6c695418b1, type: 2}
+  requireNPCs: []
+  requiredLocations: []
+  requiredItems: []
