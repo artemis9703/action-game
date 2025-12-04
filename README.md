@@ -1,5 +1,8 @@
 # action-game
 
+an action roleplay game made in unity 6 and scripted in c#
+this is my first ever completed 2D unity adventure game, and i will defiently be making more, unity is by far the eaiest developing software ive ever learned. this game was a lot of fun to make. i am submitting this for hackclubs moonshot event.
+
 assets by [pixelfrog](https://pixelfrog-assets.itch.io/) on itch.io
 
 <div align="center">
